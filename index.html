@@ -74,23 +74,6 @@
         <!-- Seção Sobre -->
         <section id="about" class="flex sobre_container">
 
-            <!-- Imagem da seção Sobre -->
-            <img src="./assets/img/user_01.svg" alt="Foto do perfil do Github" />
-
-            <!-- Texto da seção Sobre -->
-            <article id="about_texto">
-                <h1>Sobre mim</h1>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Quem manda
-                    na minha terra sou euzis! A ordem dos tratores não altera o pão duris. Copo furadis é disculpa de
-                    bebadis, arcu quam euismod magna.</p>
-
-                <div id="about_github" class="flex sobre_github">
-                    <a href="https://github.com/rafaelq80" target="_blank" class="botao">Github</a>
-                    <p>200 seguidores</p>
-                    <p>20 repositórios</p>
-                </div>
-            </article>
-
         </section>
 
         <!-- Seção de Contatos -->
@@ -119,7 +102,11 @@
             </article>
 
             <!-- Formulário de Contato -->
-            <form action="" method="POST">
+            <form action="https://formsubmit.co/7065d88cfa92a310a1da3b7a5effb0c9" method="POST" id="formulario">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
+
                 <label for="nome">Nome</label>
                 <input id="nome" name="nome" type="text" placeholder="Digite o seu nome">
                 <span id="txtNome"></span>
@@ -146,6 +133,10 @@
     <footer>
         Feito com ❤ por Rafael Queiróz - 2025
     </footer>
+
+    <!-- Script JavaScript -->
+    <script src="./assets/js/script.js"></script> 
+
 </body>
 
 </html>
